@@ -7,11 +7,29 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Ingresso.h"
+#import "Vip.h"
+#import "Estudante.h"
+
+void imprimirPrecoComObjeto(Ingresso * ingresso) {
+    if ([ingresso isKindOfClass:[Ingresso class]]) {
+        NSLog(@"Preco do %@: %.2f", [ingresso description], [ingresso preco]);
+    }
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Ingresso * objIngresso;
+
+        objIngresso = [[Ingresso alloc] init];
+        imprimirPrecoComObjeto(objIngresso);
+
+        objIngresso = [[Vip alloc] init];
+        imprimirPrecoComObjeto(objIngresso);
+
+        objIngresso = [[Estudante alloc] init];
+        imprimirPrecoComObjeto(objIngresso);
     }
+
     return 0;
 }

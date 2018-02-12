@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E86F20B81E804B700015B0C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86F20B71E804B700015B0C5 /* main.m */; };
+		E86F20C91E804E370015B0C5 /* Ingresso.m in Sources */ = {isa = PBXBuildFile; fileRef = E86F20C81E804E370015B0C5 /* Ingresso.m */; };
+		E86F20CC1E804FA20015B0C5 /* Vip.m in Sources */ = {isa = PBXBuildFile; fileRef = E86F20CB1E804FA20015B0C5 /* Vip.m */; };
+		E86F20CF1E80503F0015B0C5 /* Estudante.m in Sources */ = {isa = PBXBuildFile; fileRef = E86F20CE1E80503F0015B0C5 /* Estudante.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		E86F20B41E804B700015B0C5 /* Project Polimorifsmo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project Polimorifsmo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86F20B71E804B700015B0C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E86F20C71E804E370015B0C5 /* Ingresso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingresso.h; sourceTree = "<group>"; };
+		E86F20C81E804E370015B0C5 /* Ingresso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingresso.m; sourceTree = "<group>"; };
+		E86F20CA1E804FA20015B0C5 /* Vip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vip.h; sourceTree = "<group>"; };
+		E86F20CB1E804FA20015B0C5 /* Vip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vip.m; sourceTree = "<group>"; };
+		E86F20CD1E80503F0015B0C5 /* Estudante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Estudante.h; sourceTree = "<group>"; };
+		E86F20CE1E80503F0015B0C5 /* Estudante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Estudante.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				E86F20B71E804B700015B0C5 /* main.m */,
+				E86F20C71E804E370015B0C5 /* Ingresso.h */,
+				E86F20C81E804E370015B0C5 /* Ingresso.m */,
+				E86F20CB1E804FA20015B0C5 /* Vip.m */,
+				E86F20CA1E804FA20015B0C5 /* Vip.h */,
+				E86F20CD1E80503F0015B0C5 /* Estudante.h */,
+				E86F20CE1E80503F0015B0C5 /* Estudante.m */,
 			);
 			path = "Project Polimorifsmo";
 			sourceTree = "<group>";
@@ -120,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86F20CC1E804FA20015B0C5 /* Vip.m in Sources */,
 				E86F20B81E804B700015B0C5 /* main.m in Sources */,
+				E86F20C91E804E370015B0C5 /* Ingresso.m in Sources */,
+				E86F20CF1E80503F0015B0C5 /* Estudante.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +267,7 @@
 				E86F20BD1E804B700015B0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
